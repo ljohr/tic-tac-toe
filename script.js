@@ -169,10 +169,12 @@ function resetAll() {
   });
 
   currentGame.currentPlayer = "X";
+  currentGame.winFound = false;
+  currentGame.drawFound = false;
+  currentGame.gameFinished = false;
   currentGameDOM.clearResult();
   currentGameDOM.hideBtn();
   currentGameDOM.showPlayer(currentGame.currentPlayer);
-  currentGame.gameFinished = false;
 }
 
 function replay() {
