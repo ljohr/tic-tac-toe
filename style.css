@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  background-color: rgb(76, 76, 76);
+}
+
+body {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.grid {
+  padding-bottom: 20px;
+}
+
+.first-row, .second-row, .third-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  border: 5px solid white;
+}
+.cell:nth-child(1), .cell:nth-child(2) {
+  border-right: none; 
+}
+
+.first-row .cell, .second-row .cell {
+  border-bottom: none; 
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#replay-btn {
+  display: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 7px;
+  border: 1px solid white;
+}
