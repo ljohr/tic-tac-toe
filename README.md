@@ -1,5 +1,5 @@
 # Tic Tac Toe 
-This is a simple implementation of 3x3 Grid Tic Tac Toe game using HTML, CSS, and JavaScript, following Object-Oriented Programming (OOP) principles.
+This is a simple implementation of a 3x3 Grid Tic Tac Toe game using HTML, CSS, and JavaScript, following Object-Oriented Programming (OOP) principles.
 
 ## Play the Game
 https://tic-tac-toe-production-1211.up.railway.app/
