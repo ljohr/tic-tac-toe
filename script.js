@@ -116,8 +116,6 @@ function placeMark(cell, index) {
 }
 
 function checkWin() {
-  currentGame.winFound = false;
-
   winningCombinations.forEach((combo) => {
     let matchFound = true;
     for (let comboIndex of combo) {
@@ -174,7 +172,6 @@ function resetAll() {
   currentGameDOM.clearResult();
   currentGameDOM.hideBtn();
   currentGameDOM.showPlayer(currentGame.currentPlayer);
-
   currentGame.gameFinished = false;
 }
 
@@ -189,7 +186,6 @@ function playGame() {
     cell.addEventListener("click", () => placeMark(cell, index), false);
   });
 }
-
 
 playGame();
 replay();
