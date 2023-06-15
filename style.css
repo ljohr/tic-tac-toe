@@ -4,6 +4,7 @@
 }
 
 body {
+  padding-top: 2%;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -40,9 +41,22 @@ body {
 }
 
 #replay-btn {
+  font-weight: 800;
   display: none;
+  min-height: 35px;
+  min-width: 70px;
   padding: 5px 10px;
-  color: white;
+  color: rgb(76, 76, 76);
   border-radius: 7px;
   border: 1px solid white;
+  background-color: white;
+}
+
+#footer {
+  padding-top: 115px;
+}
+
+.github-icon {
+  color: white;
+  max-width: 15px;
 }

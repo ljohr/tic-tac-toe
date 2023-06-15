@@ -63,6 +63,7 @@ class GameDOM {
     this._curPlayer = document.getElementById("current-turn");
     this._resultMessage = document.getElementById("result-message");
     this._replayBtn = document.getElementById("replay-btn");
+    this._footer = document.getElementById("footer");
   }
 
   showPlayer(currentPlayer) {
@@ -83,10 +84,12 @@ class GameDOM {
 
   showBtn() {
     this._replayBtn.style.display = 'inline';
+    this._footer.style.paddingTop = '80px';
   }
 
   hideBtn() {
     this._replayBtn.style.display = 'none';
+    this._footer.style.paddingTop = '115px';
   }
 }
 
