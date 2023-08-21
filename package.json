@@ -1,11 +1,9 @@
 {
-  "name": "ticTacToe",
+  "name": "tic-tac-toe",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "node script.js",
-    "test": "node script.js",
-    "start": "node script.js"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
