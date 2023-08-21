@@ -2,7 +2,7 @@
 This is a simple implementation of a 3x3 Grid Tic Tac Toe game using HTML, CSS, and JavaScript, following Object-Oriented Programming (OOP) principles.
 
 ## Play the Game
-https://tic-tac-toe-production-1211.up.railway.app/
+https://outstanding-shoe-ox.cyclic.cloud/
 
 ## Code Structure
 The code is organized into two classes: `Game` and `GameDOM`. The `Game` class manages the game state and logic, while the `GameDOM` class handles the DOM manipulation and display of game elements.
